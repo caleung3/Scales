@@ -1,6 +1,7 @@
 void setup() {
   size(1920, 1080);  //feel free to change the size
   noLoop(); //stops the draw() function from repeating
+  background((int)(Math.random()*256));
 }
 void draw() {
   for (int y = 0; y<1300; y=y+250){
@@ -37,4 +38,5 @@ triangle(x,y-180,x,y-175,x-20,y-178);
 strokeWeight(7);
 line(x+45, y-115, x+75, y-80);
 line(x-45, y-115, x-75, y-80);
+
 }
