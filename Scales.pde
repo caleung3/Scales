@@ -1,7 +1,7 @@
 void setup() {
   size(1920, 1080);  //feel free to change the size
   noLoop(); //stops the draw() function from repeating
-  background((int)(Math.random()*256));
+  background((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256))
 }
 void draw() {
   for (int y = 0; y<1300; y=y+250){
